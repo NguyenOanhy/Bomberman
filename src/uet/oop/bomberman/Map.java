@@ -130,13 +130,13 @@ public class Map {
                             tempList.add(new FlameItem(j, i, powerup_flames.getFxImage()));
                             break;
                         case 'b':
-                            tempList.add(new FlameItem(j, i, powerup_bombs.getFxImage()));
+                            tempList.add(new BombItem(j, i, powerup_bombs.getFxImage()));
                             break;
                         case 's':
-                            tempList.add(new FlameItem(j, i, powerup_speed.getFxImage()));
+                            tempList.add(new SpeedItem(j, i, powerup_speed.getFxImage()));
                             break;
                         case 'm':
-                            tempList.add(new FlameItem(j, i, powerup_bombpass.getFxImage()));
+                            tempList.add(new BombPassItem(j, i, powerup_bombpass.getFxImage()));
                             break;
                         default:
                             tempList.add(new Grass(j, i, Sprite.grass.getFxImage()));
